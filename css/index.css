@@ -1,0 +1,21 @@
+.content {
+    width: 100%;
+    background-color: #e7e7e7;
+}
+
+nav {
+    width: 85%;
+    margin: 0 auto;
+}
+
+.swiped {
+    width: 85%;
+    margin: 0 auto;
+}
+
+.item img {
+    /* width: 80%; */
+    height: 300px;
+    margin: 0 auto;
+
+}
