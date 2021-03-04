@@ -1,21 +1,66 @@
+/* 引入外部重置样式表 */
+@import '../css/reset.css';
+
 .content {
     width: 100%;
     background-color: #e7e7e7;
 }
 
+/* 设置导航栏的样式 */
 nav {
     width: 85%;
     margin: 0 auto;
 }
 
+/* 设置轮播图的样式 */
 .swiped {
     width: 85%;
     margin: 0 auto;
 }
 
 .item img {
-    /* width: 80%; */
     height: 300px;
     margin: 0 auto;
 
+}
+
+/* 设置主要内容的样式 */
+.jumbotron {
+    width: 85%;
+    margin: 0 auto;
+}
+
+.jumbotron .container {
+    /* height: 300px; */
+    border-bottom: 1px solid #ffffff;
+}
+
+/* 设置底部样式 */
+.footer {
+    height: 40px;
+    background-color: #7f8c8d;
+}
+
+.footer .container {
+    width: 85%;
+    margin: 0 auto;
+}
+
+.footer .left {
+    float: left;
+}
+
+.footer .left li{
+    line-height: 40px;
+}
+
+.footer .right {
+    float: right;
+}
+
+.footer .right li {
+    float: left;
+    line-height: 40px;
+    font-size: 14px;
+    margin-right: 20px;
 }
