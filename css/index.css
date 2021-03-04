@@ -43,24 +43,11 @@ nav {
 
 .footer .container {
     width: 85%;
+    height: 40px;
     margin: 0 auto;
 }
 
-.footer .left {
-    float: left;
-}
-
-.footer .left li{
+.footer ul {
+    text-align: center;
     line-height: 40px;
-}
-
-.footer .right {
-    float: right;
-}
-
-.footer .right li {
-    float: left;
-    line-height: 40px;
-    font-size: 14px;
-    margin-right: 20px;
 }
